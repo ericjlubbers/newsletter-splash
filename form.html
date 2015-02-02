@@ -1,0 +1,33 @@
+<script type ="text/javascript">
+document.write('<style type="text/css"> \n\
+#mj-tease {} \n\
+#mj-tease .mj-form { width:100%; display:block; } \n\
+#mj-tease .mj-form p { margin: 0; display:block; } \n\
+#mj-tease .mj-form input[type=text] { width:90%; height:24px; margin:0 auto; clear:both;  } \n\
+#mj-tease .mj-form input[type=submit] { width:90%; height:24px; margin:3px auto; clear:both; } \n\
+#mj-tease h2 { font-size: 22px; margin: .25em 0 .5em; } \n\
+</style>')
+</script>
+
+<div id="mj-tease">
+    <div class="mj-form">
+        <form action="http://neighbors.denverpost.com/app/mailer/" method="post" name="dailydigest" style="margin:0;">
+            <input type="hidden" name="keebler" value="goof111" />
+            <input type="hidden" name="goof111" value="TRUE" />
+            <input type="hidden" name="redirect" id="inputRedirURL" value="" />
+            <input type="hidden" name="id" value="autoadd" />
+            <input type="hidden" name="which" value="dailydigest" />
+            <input type="text" name="name_first" value="Humans: Do Not Use" style="display:none;" />
+            <p style="height:75px;text-align:center;"><input placeholder="Email Address" type="text" name="email_address" maxlength="50" value="" />
+            <input type="submit" name="submit" value="Submit" />
+            </p>
+            <p><em>We promise we won't use your email address for anything else.</em></p>
+            <div class="clear"></div>
+        </form>
+        <script type="text/javascript">
+            document.getElementById('inputRedirURL').value = document.URL;
+        </script>
+    <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>

@@ -1,0 +1,87 @@
+@import "settings";
+@import "foundation";
+
+
+img.display {
+width:100%;
+height:auto;
+max-width:650px;
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+
+img.logo {
+height:auto;
+width:100%;
+max-width:350px;
+display: block;
+margin-right: auto;
+margin-left: auto;
+padding:2%;
+}
+
+
+body {
+    background-image: url("http://extras.denverpost.com/newsletter/signup/sportsshow/img/leswoody.jpg");
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+body.dptv {
+    background-image: url("http://placehold.it/1400x2100&text=DPTV+Background");
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.Absolute-Center.is-Responsive {
+  width: 60%;
+  height: 60%;
+  min-width: 200px;
+  max-width: 400px;
+  padding: 40px;
+}
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
